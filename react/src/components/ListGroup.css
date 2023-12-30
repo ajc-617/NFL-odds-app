@@ -1,0 +1,17 @@
+li {
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}  

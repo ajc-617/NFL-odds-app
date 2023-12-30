@@ -1,0 +1,207 @@
+{
+    "data": [
+      {
+        "Away Team": "Cincinnati Bengals",
+        "Away Team Odds": -162,
+        "Home Team": "Pittsburgh Steelers",
+        "Home Team Odds": 136,
+        "Start Time": "2023-12-23T4:31PM"
+      },
+      {
+        "Away Team": "Buffalo Bills",
+        "Away Team Odds": -800,
+        "Home Team": "Los Angeles Chargers",
+        "Home Team Odds": 550,
+        "Start Time": "2023-12-23T8:01PM"
+      },
+      {
+        "Away Team": "Atlanta Falcons",
+        "Away Team Odds": -142,
+        "Home Team": "Indianapolis Colts",
+        "Home Team Odds": 120,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "Carolina Panthers",
+        "Away Team Odds": 170,
+        "Home Team": "Green Bay Packers",
+        "Home Team Odds": -205,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "Cleveland Browns",
+        "Away Team Odds": -155,
+        "Home Team": "Houston Texans",
+        "Home Team Odds": 130,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "Detroit Lions",
+        "Away Team Odds": -162,
+        "Home Team": "Minnesota Vikings",
+        "Home Team Odds": 136,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "New York Jets",
+        "Away Team Odds": -162,
+        "Home Team": "Washington Commanders",
+        "Home Team Odds": 136,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "Seattle Seahawks",
+        "Away Team Odds": -185,
+        "Home Team": "Tennessee Titans",
+        "Home Team Odds": 154,
+        "Start Time": "2023-12-24T1:01PM"
+      },
+      {
+        "Away Team": "Jacksonville Jaguars",
+        "Away Team Odds": 105,
+        "Home Team": "Tampa Bay Buccaneers",
+        "Home Team Odds": -125,
+        "Start Time": "2023-12-24T4:06PM"
+      },
+      {
+        "Away Team": "Arizona Cardinals",
+        "Away Team Odds": 170,
+        "Home Team": "Chicago Bears",
+        "Home Team Odds": -205,
+        "Start Time": "2023-12-24T4:26PM"
+      },
+      {
+        "Away Team": "Dallas Cowboys",
+        "Away Team Odds": 110,
+        "Home Team": "Miami Dolphins",
+        "Home Team Odds": -130,
+        "Start Time": "2023-12-24T4:26PM"
+      },
+      {
+        "Away Team": "Denver Broncos",
+        "Away Team Odds": -355,
+        "Home Team": "New England Patriots",
+        "Home Team Odds": 280,
+        "Start Time": "2023-12-24T8:16PM"
+      },
+      {
+        "Away Team": "Kansas City Chiefs",
+        "Away Team Odds": -575,
+        "Home Team": "Las Vegas Raiders",
+        "Home Team Odds": 425,
+        "Start Time": "2023-12-25T1:01PM"
+      },
+      {
+        "Away Team": "New York Giants",
+        "Away Team Odds": 550,
+        "Home Team": "Philadelphia Eagles",
+        "Home Team Odds": -800,
+        "Start Time": "2023-12-25T4:31PM"
+      },
+      {
+        "Away Team": "Baltimore Ravens",
+        "Away Team Odds": 210,
+        "Home Team": "San Francisco 49ers",
+        "Home Team Odds": -258,
+        "Start Time": "2023-12-25T8:16PM"
+      },
+      {
+        "Away Team": "Cleveland Browns",
+        "Away Team Odds": -238,
+        "Home Team": "New York Jets",
+        "Home Team Odds": 195,
+        "Start Time": "2023-12-28T8:16PM"
+      },
+      {
+        "Away Team": "Dallas Cowboys",
+        "Away Team Odds": -225,
+        "Home Team": "Detroit Lions",
+        "Home Team Odds": 185,
+        "Start Time": "2023-12-30T8:16PM"
+      },
+      {
+        "Away Team": "Arizona Cardinals",
+        "Away Team Odds": 400,
+        "Home Team": "Philadelphia Eagles",
+        "Home Team Odds": -535,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Atlanta Falcons",
+        "Away Team Odds": 130,
+        "Home Team": "Chicago Bears",
+        "Home Team Odds": -155,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Baltimore Ravens",
+        "Away Team Odds": -155,
+        "Home Team": "Miami Dolphins",
+        "Home Team Odds": 130,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Buffalo Bills",
+        "Away Team Odds": -800,
+        "Home Team": "New England Patriots",
+        "Home Team Odds": 550,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Carolina Panthers",
+        "Away Team Odds": 280,
+        "Home Team": "Jacksonville Jaguars",
+        "Home Team Odds": -355,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Houston Texans",
+        "Away Team Odds": -230,
+        "Home Team": "Tennessee Titans",
+        "Home Team Odds": 190,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Indianapolis Colts",
+        "Away Team Odds": -162,
+        "Home Team": "Las Vegas Raiders",
+        "Home Team Odds": 136,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "San Francisco 49ers",
+        "Away Team Odds": -850,
+        "Home Team": "Washington Commanders",
+        "Home Team Odds": 575,
+        "Start Time": "2023-12-31T1:01PM"
+      },
+      {
+        "Away Team": "Pittsburgh Steelers",
+        "Away Team Odds": 150,
+        "Home Team": "Seattle Seahawks",
+        "Home Team Odds": -180,
+        "Start Time": "2023-12-31T4:06PM"
+      },
+      {
+        "Away Team": "Cincinnati Bengals",
+        "Away Team Odds": 285,
+        "Home Team": "Kansas City Chiefs",
+        "Home Team Odds": -360,
+        "Start Time": "2023-12-31T4:26PM"
+      },
+      {
+        "Away Team": "Denver Broncos",
+        "Away Team Odds": -278,
+        "Home Team": "Los Angeles Chargers",
+        "Home Team Odds": 225,
+        "Start Time": "2023-12-31T4:26PM"
+      },
+      {
+        "Away Team": "Green Bay Packers",
+        "Away Team Odds": 105,
+        "Home Team": "Minnesota Vikings",
+        "Home Team Odds": -125,
+        "Start Time": "2023-12-31T8:21PM"
+      }
+    ]
+  }
