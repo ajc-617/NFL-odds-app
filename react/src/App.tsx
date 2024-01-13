@@ -1,20 +1,69 @@
+import { useEffect, useState } from "react"
+import axios from "axios"
 import ListGroup from "./components/ListGroup"
 import Alert from "./components/Alert"
 import Button from "./components/Button"
+import { Datum } from "./components/ListGroup"
 import './App.css'
 
 function App(){
   //let items = ['New York', 'San Franciso', 'Tokyo', 'London', 'Paris'];
-
   const handleSelectItem = (item: string) => {
     console.log(item)
   }
   //return <div><ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem}/></div>
+
+  const [fetchedData, setFetchedData] = useState<FetchedDatum[]>([]);
+
+  useEffect(() => {
+    axios.request(
+      {
+        method: "get",
+        url: "http://10.0.0.18:5000/upcoming_odds_info",
+      }
+    )
+    .then(response => {
+      //Use below line for testing purposes (making sure API returns data correctly)
+      console.log(response.data);
+      setFetchedData(response.data)
+    })
+    .catch(error => {
+      console.error(error);
+    })
+  },[])
+
   return (
     <>
-    <ListGroup heading="Test Heading" items={["Item 1", "Item 2", "Item 3", "Item 4"]} onSelectItem = {handleSelectItem}></ListGroup>
+    <ListGroup heading="Welcome to my NFL odds info webpage" onSelectItem = {handleSelectItem} data={mapDatatoKeys(fetchedData)}></ListGroup>
     </>
   )
 }
+
+function mapDatatoKeys(fetchedData: FetchedDatum[]): Datum[] {
+  let loadedData: Datum[] = [];
+  for (let curDatum of fetchedData) {
+    let newDatum: Datum = {
+      awayTeam : curDatum["Away Team"],
+      homeTeam : curDatum["Home Team"],
+      awayTeamML : curDatum["Away Team Odds"],
+      homeTeamML : curDatum["Home Team Odds"],
+      startTime : curDatum["Start Time"],
+      spread : curDatum["Spread"],
+    };
+    loadedData.push(newDatum);  
+  }
+
+  return loadedData;
+}
+
+interface FetchedDatum {
+  "Away Team": string;
+  "Home Team": string;
+  "Away Team Odds": number;
+  "Home Team Odds": number;
+  "Start Time": string;
+  "Spread": number;
+}
+
 
 export default App
