@@ -31,7 +31,6 @@ function ListGroup({heading, onSelectItem, data}: Props) {
             {data.length !== 0 &&
             <ul className="list-group">
                 {data.map((matchupInfo: Datum, index) => 
-
                     <ListElement 
                         index={index}
                         numElems={data.length}

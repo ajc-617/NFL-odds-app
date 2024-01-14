@@ -1,3 +1,13 @@
+
+
+h1 {
+    margin-left:auto;
+    margin-right:auto;
+    width: 750px;
+    background: rgba(247, 131, 231, 0.5);
+    text-align: center;
+}
+
 li {
     padding-bottom: 100px;
     margin-bottom: 30px;
@@ -8,6 +18,11 @@ img {
     height: auto;
 }
 
+#site-info {
+    float: left;
+    background-color: white;
+    margin: 20px;
+}
 
 .float-child {
     width: 50%;
@@ -15,3 +30,16 @@ img {
     padding: 20px;
     text-align: center;
 }  
+
+/*
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+text-align: center;
+background: rgba(247, 131, 231, 0.5);
+display: block;   
+width: 50%;
+*/

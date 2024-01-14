@@ -7,7 +7,7 @@ function ListElement(Props: Input) {
   return (
     <>
       <li className={"list-group-item"}>
-        <h2>{Props.startTime}</h2>
+        <h2>{correctTime(Props.startTime)}</h2>
         <div className="float-child">
             {Props.awayTeam}
             <br />
@@ -35,6 +35,12 @@ function awayTeamFavorite(awayTeamML: number, homeTeamML: number): boolean {
   //If awayTeamML is lower than homeTeamML, this means awayTeam is favorited, so return true, otherwise, return false because homeTeam is favorited
   let returnVal: boolean = awayTeamML < homeTeamML ? true : false
   return returnVal;
+}
+
+function correctTime(inputTime: string): string {
+  let timeIndex = inputTime.indexOf('T');
+  return inputTime.substring(0, timeIndex) + " " + inputTime.substring(timeIndex + 1)
+  
 }
 
 export interface Input { 
