@@ -11,6 +11,7 @@ h1 {
 li {
     padding-bottom: 100px;
     margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
@@ -22,6 +23,22 @@ img {
     float: left;
     background-color: white;
     margin: 20px;
+    width: 400px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.light-dark-mode-btn {
+    float: left;
+    bottom: 0;
+    position: absolute;
+}
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important; 
+    border-color: black !important;
 }
 
 .float-child {

@@ -6,8 +6,8 @@ import "./ListElement.css"
 function ListElement(Props: Input) {
   return (
     <>
-      <li className={"list-group-item"}>
-        <h2>{correctTime(Props.startTime)}</h2>
+      <li className={Props.darkMode ? "list-group-item dark-mode" : "list-group-item"}>
+        <h2>Start time: {correctTime(Props.startTime)}</h2>
         <div className="float-child">
             {Props.awayTeam}
             <br />
@@ -51,7 +51,8 @@ export interface Input {
   spread: number;
   startTime: string;
   index: number;
-  numElems: number
+  numElems: number;
+  darkMode: boolean;
 }
 
 

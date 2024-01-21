@@ -1,19 +1,22 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import ListGroup from "./components/ListGroup"
-import Alert from "./components/Alert"
 import Button from "./components/Button"
 import { Datum } from "./components/ListGroup"
 import './App.css'
 
-function App(){
-  //let items = ['New York', 'San Franciso', 'Tokyo', 'London', 'Paris'];
+function App() {
   const handleSelectItem = (item: string) => {
     console.log(item)
   }
-  //return <div><ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem}/></div>
 
   const [fetchedData, setFetchedData] = useState<FetchedDatum[]>([]);
+  
+    //setting this to false by default because by default, we'll have light mode
+  const [darkMode, setLightMode] = useState(false)
+
+  document.body.style.backgroundImage = darkMode ? "url(" + "../src/assets/night_winter_background.png" + ")" : "url(" + "../src/assets/light_winter_background.jpg" + ")";
+  document.body.style.backgroundRepeat = "no-repeat";
 
   useEffect(() => {
     axios.request(
@@ -34,7 +37,7 @@ function App(){
 
   return (
     <>
-    <ListGroup heading="Welcome to my NFL odds info webpage" onSelectItem = {handleSelectItem} data={mapDatatoKeys(fetchedData)}></ListGroup>
+      <ListGroup heading="Welcome to my NFL odds info webpage" onSelectItem = {handleSelectItem} data={mapDatatoKeys(fetchedData)} changeLightMode={setLightMode} darkMode={darkMode}></ListGroup>
     </>
   )
 }
