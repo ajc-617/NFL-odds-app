@@ -28,10 +28,10 @@ def main():
         matchup_dict = {}
         odds_info = matchup["bookmakers"][0]["markets"][0]["outcomes"]
         matchup_dict["Start Time"] = correct_time_to_EST(matchup["commence_time"])
-        matchup_dict["Home Team"] = odds_info[0]["name"]
-        matchup_dict["Home Team Odds"] = odds_info[0]["price"]
-        matchup_dict["Away Team"] = odds_info[1]["name"]
-        matchup_dict["Away Team Odds"] = odds_info[1]["price"]
+        matchup_dict["Home Team"] = odds_info[1]["name"]
+        matchup_dict["Home Team Odds"] = odds_info[1]["price"]
+        matchup_dict["Away Team"] = odds_info[0]["name"]
+        matchup_dict["Away Team Odds"] = odds_info[0]["price"]
         matchups.append(matchup_dict)
     return jsonify({"data": matchups})
 
