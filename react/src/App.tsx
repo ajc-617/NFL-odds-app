@@ -12,9 +12,10 @@ function App() {
 
   const [fetchedData, setFetchedData] = useState<FetchedDatum[]>([]);
   
-    //setting this to false by default because by default, we'll have light mode
+  //setting this to false by default because by default, we'll have light mode
   const [darkMode, setLightMode] = useState(false)
 
+  //Change background image depending on whether darkMode is true or false
   document.body.style.backgroundImage = darkMode ? "url(" + "../src/assets/night_winter_background.png" + ")" : "url(" + "../src/assets/light_winter_background.jpg" + ")";
   document.body.style.backgroundRepeat = "no-repeat";
 
@@ -22,7 +23,7 @@ function App() {
     axios.request(
       {
         method: "get",
-        url: "http://10.0.0.18:5000/upcoming_odds_info",
+        url: "http://127.0.0.1:5000/upcoming_odds_info",
       }
     )
     .then(response => {
@@ -52,6 +53,7 @@ function mapDatatoKeys(fetchedData: FetchedDatum[]): Datum[] {
       homeTeamML : curDatum["Home Team Odds"],
       startTime : curDatum["Start Time"],
       spread : curDatum["Spread"],
+      total : curDatum["Total"]
     };
     loadedData.push(newDatum);  
   }
@@ -66,6 +68,7 @@ interface FetchedDatum {
   "Home Team Odds": number;
   "Start Time": string;
   "Spread": number;
+  "Total": number;
 }
 
 

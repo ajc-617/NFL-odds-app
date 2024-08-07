@@ -13,18 +13,20 @@ function ListElement(Props: Input) {
             <br />
             <img src={images[mappings[Props.awayTeam]]}/>
             <br />
-            {Props.awayTeamML}
+            {awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) ? Props.awayTeamML : "+" + Props.awayTeamML}
             <br />
-            {awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && Props.spread}
+            {awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && "Spread: " + Props.spread}
+            {!awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && "Total: " + Props.total}
         </div>
         <div className="float-child">
             {Props.homeTeam}
             <br />
             <img src={images[mappings[Props.homeTeam]]}/>
             <br />
-            {Props.homeTeamML}
+            {!awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) ? Props.homeTeamML : "+" + Props.homeTeamML}
             <br />
-            {!awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && Props.spread}
+            {!awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && "Spread: " + Props.spread}
+            {awayTeamFavorite(Props.awayTeamML, Props.homeTeamML) && "Total: " + Props.total}
         </div>
       </li> 
     </>
@@ -49,6 +51,7 @@ export interface Input {
   awayTeamML: number;
   homeTeamML: number;
   spread: number;
+  total: number;
   startTime: string;
   index: number;
   numElems: number;

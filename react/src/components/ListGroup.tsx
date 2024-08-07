@@ -19,6 +19,7 @@ export interface Datum {
     homeTeamML: number;
     spread: number;
     startTime: string;
+    total: number;
 }
 
 
@@ -51,6 +52,7 @@ function ListGroup({heading, onSelectItem, data, changeLightMode, darkMode}: Pro
                         awayTeamML={matchupInfo.awayTeamML}
                         homeTeamML={matchupInfo.homeTeamML}
                         spread={matchupInfo.spread}
+                        total={matchupInfo.total}
                         startTime={matchupInfo.startTime}
                         darkMode={darkMode}>
                     </ListElement>

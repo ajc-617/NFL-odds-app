@@ -1,0 +1,191 @@
+[
+  {
+    "id": "88c29162853b9f40edcd339da8771fa9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-15T21:35:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-01-15T06:57:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": -485
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 370
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": -108,
+                "point": -10.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": -112,
+                "point": 10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-02-01T23:38:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "628d1c378a60a3a1d743264ac8df8cb8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-16T01:20:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-01-15T06:57:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": -155
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 130
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": -105,
+                "point": -3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": -115,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-02-01T23:38:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bcba70d77b8cd7d1666b6c4179df2071",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-21T01:16:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-01-15T06:57:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 380
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": -500
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-01-15T06:57:56Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": -108,
+                "point": 10.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": -112,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-02-01T23:38:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

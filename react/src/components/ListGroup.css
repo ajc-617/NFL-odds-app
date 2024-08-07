@@ -31,7 +31,6 @@ img {
 
 .light-dark-mode-btn {
     float: left;
-    bottom: 0;
     position: absolute;
 }
 
@@ -47,6 +46,10 @@ img {
     padding: 20px;
     text-align: center;
 }  
+
+.list-group-item {
+    border-radius: 30px !important;
+}
 
 /*
 height: 200px;
