@@ -20,6 +20,7 @@ def main():
 
     #json_formatted_str = json.dumps(response, indent=2)
 
+    #use this to write response from the odds api to a json file
     #with open("odds_data.json", "w") as outfile:
     #    outfile.write(json_formatted_str)
 
